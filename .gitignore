@@ -1,0 +1,46 @@
+#  Build dir #
+###################
+target
+tmp
+data
+out
+
+# Compiled source #
+###################
+web-app/WEB-INF/classes
+*.class
+
+# Packages #
+############
+*.war
+
+# Logs and databases #
+######################
+*.log
+*.log.*
+*.csv
+*.sql
+*.csv
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDE (Eclipse) files #
+#######################
+.classpath
+.project
+.settings
+.idea
+*.iml
+.idea/*
+
+# Ignore backup files #
+#######################
+*.bak
+/design/
+/run.txt
+out
